@@ -1,0 +1,480 @@
+
+.logo{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.titulo{
+  position: relative;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 64px; 
+}
+
+.punto{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 64px;
+  color:#0000FF;
+}
+s{
+  margin: 8px;
+  margin-top: 0px;
+}
+.titulo{
+  display: flex;
+  flex-wrap: wrap;
+}
+.epigrafe{
+  font-family: 'Raleway', sans-serif;
+  width: 40em;
+  font-size: 20px;
+}
+
+.menu  :hover{
+  color: #00f3bb;
+  text-decoration: #00f3bb;
+  
+}
+.menu  :active{
+  text-decoration: line-through;
+  text-decoration-color: #00f3bb
+}
+.botonverde_cero{
+  
+  font-size: 18px;
+  background: #00F0B8;
+  color: #060A24;
+  display: block;
+  padding: 25px;
+  font-family: 'IBM Plex Mono-Medium';
+  text-decoration: none;
+  max-width: 13%;
+  position: relative;
+  top: 30px;
+}
+.botonverde_cero:hover{
+  background: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+  color:#FFFFFF;
+ 
+}
+.txt_img{
+  font-family: 'IBM Plex Sans';
+  font-size: 48px;
+  color: #060A24;
+  letter-spacing: 0;
+  position: relative;
+  padding-left: 10%;
+}
+.foto_mujeres {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color:lightslategrey;
+
+}
+.foto_mujer {
+  flex-basis: 33.33%;
+  flex-grow: 1;
+}
+img{
+  max-width: 100%;
+}
+.poligono{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width:97%;
+  height: 800px;
+  clip-path:  polygon(0 13%, 100% 0, 100% 86%, 0 100%); 
+  background: linear-gradient(72deg,#0000A3,#0000FF);
+  margin-top: 100px;
+}
+.episodios{
+  position: relative;
+  right: 302px;
+  bottom: 50px;
+  font-family: "IBM Plex Sans";
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  max-height: 70px;
+}
+.phone{
+  position: relative;
+  bottom: 200px;
+  left:  -27px;
+  height: 660px;
+  width: 457px ;
+}
+.dedondevenimos{
+  position: relative;
+  font-family: 'IBM Plex Sans';
+  left: 480px;
+  bottom: 600px;
+}
+.textddv{
+  height: 204px;
+  width: 464px;
+  text-align: left;
+  left: 30em;
+  bottom: 580px;
+  position: relative;
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.podcast-pol{
+  z-index: 1;
+  display: flex;
+  display: inline;
+  position: relative;
+  box-sizing: content-box;
+  text-align: center;
+}
+.svg{
+
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+}
+.svgs{
+  display: inline;
+}
+.textosvg{
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: space-around;
+ flex-wrap: wrap;
+  max-width: 200px;
+ position: relative;
+
+}
+.poligonodos{
+  clip-path: polygon(0 34%, 100% 0, 100% 100%, 0% 100%);
+  background: linear-gradient(72deg,#0000A3,#0000FF);
+  color: #FFFFFFFF;
+  width:100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.caja_del_poligono{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+   
+}
+.novedades{
+  font-size: 48px;
+  color: #FFFFFFFF;
+  font-family:'IBM Plex Sans';
+  display: flex;
+  flex-wrap: wrap;
+}
+.botonverde{
+  font-size: 18px;
+  background: #00F0B8;
+  color: #060A24;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  padding: 25px;
+  font-family: 'IBM Plex Mono-Medium';
+  text-decoration:none;
+}
+.botonverde:hover{
+  background: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+  color:#FFFFFF
+}
+.footer{
+    display:flex;
+    padding:1.3em 3.12em;
+    justify-content:space-between ;
+}
+.spotify, .twitter, .instagram , .facebook , .telegram{
+  color: #060A24;
+}
+.checkbox{
+  display: none;
+}
+.fas{
+  display: none;
+}
+
+.menu .secciones a:hover{
+    color: #00f3bb;
+    text-decoration: line-through;
+}
+.menu a:active{
+    text-decoration: line-through;
+    color: #00f3bb;
+} 
+ .menu_uno{
+    display:inline-block;
+    padding-left: 44px;
+ }
+ a{
+   font-family:'IBM plex sans', sans-serif;
+   font-size: 1em;
+   list-style: none !important;
+   text-decoration: none !important;
+   color: black;
+   padding: 10%;
+ }
+ .pie-icon{
+  display: inline-flex;
+  padding: 0px;
+ }
+ .spotify{
+   padding: 0px;
+   padding-right: 10px;
+ }
+ .telegram{
+   padding: 0px;
+   padding-right: 10px;
+ }
+ .instagram{
+   padding: 0px;
+   padding-right: 10px;
+ }
+ .facebook{
+   padding: 0px;
+   padding-right: 10px;
+ }
+ .twitter{
+   padding: 0px;
+   padding-right: 10px;
+ }
+.secciones{
+  display: flex;
+  margin-left: 23em;
+}
+.podcast-grid-uno{
+  width:40% ;
+  height:200px;
+  border: none;
+  margin-right: 3%;
+}
+.podcast-grid-dos{
+  width:40% ;
+  height:200px;
+  border: none;
+}
+.podcast-grid-tres{
+  width:40% ;
+  height:200px;
+  border: none;
+  margin-right: 3%;
+}
+.podcast-grid-cuatro{
+  width:40% ;
+  height:200px;
+  border: none;
+}
+.cruz{
+  display: none;
+}
+@media  only screen and (max-device-width:768px){
+  .logo{
+    margin-top: 0px;
+  }
+  .fas{
+    display: block;
+    position: absolute;
+    margin-left: 90%;  
+    padding: 5px;
+    z-index: 4;
+    font-size: 4em;
+  }
+  .titulo{
+    padding-left: 36px;
+  }
+  .epigrafe{
+    width: 100%;
+    font-size: 47px;
+  }
+  .botonverde_cero{ 
+    position: relative;
+    margin-top: 100px;
+    margin-left: 31%;
+    max-width: 36%;
+    font-size: 45px;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 62px;
+    font-family: 'IBM Plex Mono-Medium';
+    margin-top: 233px;
+    margin-left: 28%;
+    max-width: 36%;
+    font-size: 45px;
+
+  } 
+  .poligono{
+    padding: 0px;
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    align-content: unset;
+  }
+  .episodios{top: 200px;
+    right: 0px;
+    bottom: 0px;  
+  }
+  .podcast-pol{
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: auto;
+    min-width: 100%;
+  padding-bottom: 400px;
+  }
+  .podcast-grid-uno{
+    display: grid;
+    min-height: 100%;
+    min-width: 25%;
+    grid-row: 1 / 2;
+    margin-left: 31%;
+  }
+  .podcast-grid-dos{
+    display: grid; 
+    min-height: 100%;
+    min-width: 25%;
+    grid-row: 2 / 3;
+    margin-left: 31%;
+  }
+  .podcast-grid-tres{
+    display: grid;
+    min-height: 100%;
+    min-width: 25%;
+    grid-row:  3 / 4;
+    margin-left: 31%;
+  }
+  .podcast-grid-cuatro{
+    display: grid;
+    min-height: 100%;
+    min-width: 25%;
+    grid-row: 4 / 5;
+    margin-left: 31%;
+  }
+  .phone{
+    padding-left: 267px;
+  }
+  .dedondevenimos{
+    left: 110px;
+    font-size: 86px;
+    bottom: 0px;
+    width: 807px;
+    top: 678px;
+    padding: 0px;
+    position: absolute;
+  }
+  .textddv{
+    left: 79px;
+    top: 892px;
+    bottom: 0px;
+    font-size: 40px;
+    width: 118%;
+    line-height: 49px;
+    position: absolute;
+  } 
+  .txt_img{
+    top: 411px;
+    padding-left: 44px;
+    font-size: 86px;
+  }
+  .foto_mujeres{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top: 390px;
+    padding-left: 0px;
+    background-color: white;
+  }
+  .svg {
+      display: flex;
+      flex-direction: column; 
+      text-align: center;
+      
+  }
+  .textosvg {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-direction: column;
+    font-size: 62px;
+  }
+  .caja_del_poligono{
+    width: 700px;
+  }
+  .poligonodos{
+    width: 100%;
+    height: 717px;
+  }
+ .checkbox ~ .menu .menu_uno{
+    display: none;
+  }
+  .checkbox:checked ~ .menu .menu_uno{
+    display: block;
+   font-size: 50px;
+  }
+  .checkbox:checked ~ .menu ul{
+    background-color: blue;
+  }
+  .menu a{
+   color: #FFFFFF;
+  }
+  .secciones{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 647px;
+   height: 561px;
+   margin: 0px;
+  }
+  .menu {
+   position: absolute;
+   z-index: 2;
+  }
+  input{
+  display: none;
+  }
+  .mujeres{
+    width: 100%;
+  }
+  .svg_responsive{
+    width: 400px;
+  }
+  .novedades{
+    font-size: 80px;
+    display: flex;
+    text-align: center;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 34px;
+    padding-left: 10%;
+}
+ .cruz{
+   display: block;
+    position: absolute;
+    margin-left: 90%;
+    opacity: 0%;
+}
+ .checkbox:checked ~ .cruz{
+   opacity: 100%;
+   background-color: white;
+   z-index: 5;
+ }
+}
+  
